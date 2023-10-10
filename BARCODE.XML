@@ -1,0 +1,30 @@
+<order knr="40346298" vin="WVGWZ6CR4PD035233" lfdnr="005173" pin="62845298" prodYear="2023" fastRequest="false" product="CR" FISTimeStamp="2023-08-08 02:29:56" sequenceID="37684116" sequenceID2=" ">
+  <barcodeResults>
+    <barcode devID="2096" devSID="SCNVM21" devLID="VW-H8-VM-PLCFB21-VM21-PCVM21-SCNVM21" jobID="BW724" timeStamp="2023.08.08 06:13:53.9677355" type="barcodeRecord" result="IO" cardID="99620192" jobTag="2790" tag="2790" HMIID="2077" revisionID="109" SPMaster="2.1.11.32">
+      <barcodeResult>28346197PT</barcodeResult>
+      <barcodeResultHex>32-38-33-34-36-31-39-37-50-54</barcodeResultHex>
+      <decodedResult result="IO" hash="CA-22-3E-C1-05-1E-5C-08-2A-94-8C-40-9C-62-28-7A">
+        <field fieldID="KNR" tag="2791" exist="true" isValid="true" result="true" value="28346197" targetValue="28346197">28346197</field>
+        <field fieldID="PT" tag="2795" exist="true" isValid="true" result="true" value="PT" targetValue="PT">PT</field>
+      </decodedResult>
+      <barcodeInfo>
+        <info tagId="2790">
+          <message>Designated value is equal to pattern</message>
+          <parameters>
+            <fieldId>KNR</fieldId>
+            <designatedValue>28346197</designatedValue>
+            <pattern>28346197</pattern>
+          </parameters>
+        </info>
+        <info tagId="2790">
+          <message>Designated value is equal to pattern</message>
+          <parameters>
+            <fieldId>PT</fieldId>
+            <designatedValue>PT</designatedValue>
+            <pattern>PT</pattern>
+          </parameters>
+        </info>
+      </barcodeInfo>
+    </barcode>
+  </barcodeResults>
+</order>

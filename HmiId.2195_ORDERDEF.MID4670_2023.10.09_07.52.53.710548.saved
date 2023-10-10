@@ -1,0 +1,5 @@
+STX *mid = 4670*ver =    *type=ORDERDEF*size=         357*node=                                *time=2023-10-09 07:52:53.7105*hmi =2195  *size=         333*file=<order knr="40345406" vin="WA1LXBF71RD004597" lfdnr="003318" pin="64031064" prodYear="2023" fastRequest="false" product="4M" FISTimeStamp="2023-10-07 04:23:43" sequenceID="38280716" sequenceID2=" ">
+  <orderHistory>
+    <in hmiDevID="2195" timeStamp="2023.10.09 07.52.29" mode="Automatic" skidID="0" />
+  </orderHistory>
+</order>ETX 

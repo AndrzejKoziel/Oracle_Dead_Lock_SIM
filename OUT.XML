@@ -1,5 +1,5 @@
 <order knr="40346298" vin="WA1LXBF78RD004595" lfdnr="003313" pin="64033525" prodYear="2023" fastRequest="false" product="4M" FISTimeStamp="2023-10-07 04:16:43" sequenceID="38280596" sequenceID2=" ">
   <orderHistory>
-    <in hmiDevID="2195" timeStamp="2023.10.09 07.52.28" mode="Automatic" />
+    <out hmiDevID="2195" timeStamp="2023.10.09 07.52.28" mode="Automatic" />
   </orderHistory>
 </order>

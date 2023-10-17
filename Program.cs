@@ -13,8 +13,8 @@ namespace Oracle_Dead_Lock_SIM
             var ipAdr = "DEADLOCK_TEST";
 
             var sb = new OracleConnectionStringBuilder();
-            sb.UserID = "SDMS_ML04_MULTIRACK";
-            sb.Password = "isp";
+            sb.UserID = "TO_FILL";
+            sb.Password = "TO_FILL";
             sb.DataSource = @"(DESCRIPTION =
                                 (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.1.34)(PORT = 1521))
                                 (CONNECT_DATA =
@@ -35,7 +35,7 @@ namespace Oracle_Dead_Lock_SIM
             sb.MetadataPooling = true;
             sb.StatementCachePurge = false;
             
-            //for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 100; i++)
             {
                 Execute(sb.ToString(), eqHmiId, ipAdr, "BARCODE.XML");
                 Execute(sb.ToString(), eqHmiId, ipAdr, "OUT.XML");
@@ -75,6 +75,8 @@ namespace Oracle_Dead_Lock_SIM
             OrclCmd.Parameters.Add("inBarcode", OracleDbType.Blob, orclBlob, ParameterDirection.Input);
             OrclCmd.Parameters.Add("inIP", OracleDbType.Varchar2, ipAdr, ParameterDirection.Input);
             OrclCmd.ExecuteNonQuery();
+
+            //oracleConnection.Close();
         }
     }
 }

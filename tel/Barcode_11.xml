@@ -1,0 +1,30 @@
+<order knr="41342732" vin="WAUZZZ4M1PD040215" lfdnr="007404" pin="64146744" prodYear="2023" fastRequest="false" product="4M" FISTimeStamp="2023-10-17 09:59:37" sequenceID="38369776" sequenceID2=" ">
+  <barcodeResults>
+    <barcode devID="2696" devSID="SCN1" devLID="VW-H8-ML4FWR-AGAVM-PCAGA1-SCN1" jobID="BW1600" timeStamp="2023.10.17 13:30:27.5162343" type="VW01064" result="IO" cardID="99117277" jobTag="8155" tag="8155" HMIID="2695" revisionID="14" SPMaster="2.1.11.32">
+      <barcodeResult>#4M0253181BT###171023*1JC VW3BXKHCF5Y*=</barcodeResult>
+      <barcodeResultHex>23-34-4D-30-32-35-33-31-38-31-42-54-23-23-23-31-37-31-30-32-33-2A-31-4A-43-20-56-57-33-42-58-4B-48-43-46-35-59-2A-3D</barcodeResultHex>
+      <decodedResult result="IO" hash="6D-83-D9-91-58-DE-EC-72-5E-07-1E-FA-F5-97-89-E5" />
+      <barcodeInfo>
+        <info tagId="">
+          <message>Designated value is equal to pattern</message>
+          <parameters>
+            <fieldId>PartNumber</fieldId>
+            <designatedValue>4M0253181BT</designatedValue>
+            <pattern>4M0253181BT</pattern>
+          </parameters>
+        </info>
+        <info tagId="8155">
+          <message>VW01064DataSequence</message>
+          <parameters>
+            <Dump>SubAssemblyNumber 1JC
+PartNumber 4M0253181BT
+PartType 
+DUNSNumber 
+ProductionDate 171023
+SubAssemblyAsStr 1JC VW3BXKHCF5Y</Dump>
+          </parameters>
+        </info>
+      </barcodeInfo>
+    </barcode>
+  </barcodeResults>
+</order>
